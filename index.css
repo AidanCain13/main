@@ -1,0 +1,50 @@
+#T1 {
+    border: 1px solid black;    
+  }
+
+   th {
+      vertical-align: text-top ;
+      text-align-last: right;
+      font-size: 40px;      
+  }
+  #T2 {
+    border: 1px solid black;
+  }
+
+  #T3 {
+      text-align: left ;
+      font-size: 40px; 
+    }
+
+    table {
+      border-style: 1px, solid;
+  }
+  
+ a:link{
+    color: rgb(24, 230, 185);
+  }
+
+  a:visited {
+    color:hotpink;
+  }
+
+  a:active{
+    color: lawngreen;
+  }
+
+  a:hover{
+    color: lightseagreen;
+  }
+
+#bt { 
+ float: right;
+}
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    .table2 {
+      width: 50%;
+    } 

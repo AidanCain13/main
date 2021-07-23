@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Aidan's Form</title>
+<style>
+    table {
+        border-style: 1px, solid;
+    }
+</style>
+
+
+</head>
+
+
+<body> 
+    <body style="background-color: hotpink;">
+        
+    </body>
+
+
+<h1>Aidan's Sample Form</h1>
+
+<p>This is hosted with GitHub Pages and will triger a clent email to send a message with the content of the form. <br> This form is hard coded to use my email to send.</p>
+
+<h2>Please fill out form :) </h2>
+
+ 
+
+<form action="mailto:W0468733@campus.nscc.ca?subject=From%20our%20Website" 
+
+method="post" enctype="text/plain">
+
+ 
+
+  <br>  
+
+  <table>
+      <tr><td>
+
+    E-mail:<br>
+
+    <input type="email" name="mail" required="required"><br>
+
+    Your first and Last Name:<br>
+
+    <input type="text" name="YourName" minlength="5" required="required" size="50"><br>
+
+    Enter your age here:<br> 
+
+
+    <input type="number" name="YourAge" min="16" max="100" required="required"><br>
+ 
+    <br>
+
+    <label for="provinces">Choose a provinces:</label>
+    <br>
+    <select id="provinces">
+      <option value="British columbia">British columbia</option>
+      <option value="Alberta">Alberta</option>
+      <option value="Ontario">Ontario</option>
+      <option value="Quebec">Quebec</option>
+      <option value="New Brunswick">New Brunswick</option>
+      <option value="Nova Scotia">Nova Scotia</option>
+      <option value="Prince Edward Island">Prince Edward Island</option>
+    </select>
+<br>
+    Enter your city here:<br>
+<input type="text" name="City" minlength="2" required="required"><br>
+
+
+<br>
+
+    Phone Number (format: xxx-xxx-xxxx):
+  <br>
+    <input type="tel" name="Phone Number" pattern="^\d{3}-\d{3}-\d{4}$" required > 
+
+<br>
+<br>
+
+<label for="TDate">Birthday:</label>
+<input type="date" id="BDate" name="TDate" required="required">
+
+<br>
+
+    <label for="TDate">Today's Date:</label>
+
+    <input type="date" id="TDate" name="TDate" required="required">
+
+    <br>
+<br>
+Animals you have 
+<br>
+<input type="checkbox" id="dog" name="vehicle1" 
+<label for="dog"> dog</label><br>
+
+<input type="checkbox" id="cat" name="vehicle2" 
+<label for="cat">cat</label><br>
+
+<input type="checkbox" id="fish" name="vehicle3" 
+<label for="fish">fish</label><br>
+
+<br>
+<br>
+
+<input type="color" name="color" id="color">
+
+
+<br>
+<br>
+
+    <input type="submit" value="Send">
+
+    <input type="reset" value="Reset">
+
+</form>
+
+</form>
+</td></tr>
+</table>
+
+</body>
+
+</html>
